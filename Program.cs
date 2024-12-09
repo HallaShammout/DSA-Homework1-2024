@@ -27,7 +27,7 @@ namespace DSA_Homework1
                 Console.Write(item);
             }
             Console.WriteLine();
-            int result = searcher.TernarySearch(array, 1, 0, array.Length);
+            int result = searcher.TernarySearch(array, 1, 0, array.Length-1);
             Console.WriteLine("Element Found at "+result);
         }
     }
